@@ -9,35 +9,36 @@
 .c-portfolio {
   position: relative;
   width: 100%;
-  
+	overflow: hidden;
+
   &__header {
     position: relative;
     width: 100%;
     font-family: 'Playfair Display', serif;
-    
+
     &--main {
-      
+
       @media screen and(min-width: 40rem) {
         margin: 3rem 0rem;
       }
       margin: 1rem 0;
       border-bottom: 1px solid #e2e2e2;
     }
-    
-    
+
+
     &--h3 {
       font-size: 150%;
       font-weight: 500;
       position: relative;
       bottom: 1rem;
       padding: 0 2rem;
-      
+
       @media screen and(min-width: 40rem) {
         padding: 0 4rem;
       }
     }
   }
-  
+
   &__bio {
     @media screen and(min-width: 40rem) {
       margin: 0 4rem;
@@ -45,39 +46,39 @@
     margin: 0 2rem;
     width: 40%;
     &--h3 {
-      font-family: 'Saira Semi Condensed', sans-serif; 
+      font-family: 'Saira Semi Condensed', sans-serif;
     }
   }
   &__title {
     font-family: 'Saira Semi Condensed', sans-serif;
     color: #9C9C9C;
   }
-  
+
   &__intro {
     max-width: 80%;
     margin: 5rem auto;
-    
+
     @media screen and(min-width: 40rem) {
       margin: 10rem auto;
       max-width: 60%;
     }
   }
-  
+
   &__text {
     font-family: 'Saira Semi Condensed', sans-serif;
     color: #9C9C9C;
   }
-  
+
   &__quotes {
     max-width: 80%;
-    
+
     @media screen and(min-width: 40rem) {
       max-width: 40%;
     }
-    
+
     margin: 2rem auto;
   }
-  
+
   &__blockquote {
     font-family: 'Saira Semi Condensed', sans-serif;
     font-size: 18px;
@@ -87,7 +88,7 @@
     line-height: 1.45;
     position: relative;
     color: #383838;
-    
+
     &::before {
       display: block;
       padding-left: 10px;
@@ -105,7 +106,7 @@
     font-size: 14px;
     display: block;
     margin-top: 5px;
-    
+
     &::before {
       content: "\2014 \2009";
       width: 10%;
@@ -113,7 +114,7 @@
       color: #7a7a7a;
     }
   }
-  
+
   &__footer {
     position: relative;
     min-height: calc(100vh - 30vh);
@@ -121,7 +122,7 @@
     min-width: 100%;
     background: #f94d4d;
     display: block;
-  } 
+  }
 }
 
 .c-social-icons {
@@ -133,18 +134,18 @@
   display: inline-block;
   bottom: 2rem;
   margin-top: 25%;
-  
+
   &::after {
     content: '';
     clear: both;
     overflow: auto;
     display: table;
   }
-  
+
   &__text {
     font-family: 'Saira Semi Condensed', sans-serif;
   }
-  
+
   &__item {
     width: 150px;
     height: 150px;
@@ -158,7 +159,7 @@
     color: #f94d4d;
     overflow: hidden;
     box-shadow: 0 4px 4px rgba(0,0,0,.2);
-    
+
     &::before {
       //background-color: #424242;
       display: block;
@@ -166,7 +167,7 @@
       font-weight: normal;
       line-height: 150px;
       color: #757575;
-      
+
       transition: font-size .5s, line-height .5s;
     }
     &::after {
